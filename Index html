@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez le Centre Imam Al Albani, école coranique située à Man, en Côte d'Ivoire.">
+  <title>Centre Imam Al Albani | Man</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #faf8f0;
+      color: #24352c;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #123d2b;
+      color: white;
+      padding: 22px 7%;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #e6c878;
+      font-size: 27px;
+    }
+
+    header p {
+      font-size: 14px;
+    }
+
+    nav {
+      background: #0b2d20;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 14px;
+    }
+
+    .hero {
+      min-height: 400px;
+      padding: 90px 8%;
+      text-align: center;
+      background: linear-gradient(135deg, #164c35, #092b20);
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      color: #f0d58b;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    .section {
+      padding: 55px 8%;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: #145638;
+      font-size: 27px;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      max-width: 750px;
+      margin: 0 auto 15px;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      max-width: 280px;
+      flex: 1 1 220px;
+      box-shadow: 0 3px 15px #00000012;
+    }
+
+    .card h3 {
+      color: #a47b28;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      background: #e9eee7;
+    }
+
+    footer {
+      background: #0b2d20;
+      color: white;
+      padding: 25px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 28px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Centre Imam Al Albani</h1>
+    <p>École coranique — Man, Côte d'Ivoire</p>
+  </header>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#ecole">Notre école</a>
+    <a href="#enseignement">Enseignement</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="accueil">
+    <h2>Bienvenue au Centre Imam Al Albani</h2>
+    <p>
+      Un espace d'apprentissage, de connaissance et
+      d'éducation au service des élèves.
+    </p>
+    <p style="margin-top:25px;">
+      <a href="#ecole" style="background:#e6c878;color:#123d2b;
+      padding:12px 24px;border-radius:6px;text-decoration:none;
+      font-weight:bold;">Découvrir notre école</a>
+    </p>
+  </section>
+
+  <section class="section" id="ecole">
+    <h2>Qui sommes-nous ?</h2>
+    <p>
+      Le Centre Imam Al Albani est une école coranique
+      située à Man, en Côte d'Ivoire.
+    </p>
+    <p>
+      Notre ambition est d'offrir aux élèves un cadre
+      favorable à l'apprentissage et à leur éducation.
+    </p>
+  </section>
+
+  <section class="section" id="enseignement">
+    <h2>Nos enseignements</h2>
+    <p>Découvrez les domaines d'apprentissage de notre centre.</p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Études coraniques</h3>
+        <p>Apprentissage et étude du Coran.</p>
+      </div>
+
+      <div class="card">
+        <h3>Langue arabe</h3>
+        <p>Découverte et apprentissage de la langue arabe.</p>
+      </div>
+
+      <div class="card">
+        <h3>Langue française</h3>
+        <p>Apprentissage de la lecture, de l'écriture et de l'expression orale.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2>Nous contacter</h2>
+    <p><strong>Établissement :</strong> Centre Imam Al Albani</p>
+    <p><strong>Ville :</strong> Man, Côte d'Ivoire</p>
+    <p><strong>Téléphone :</strong> Informations à compléter</p>
+    <p><strong>Adresse :</strong> Informations à compléter</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Centre Imam Al Albani — Tous droits réservés.</p>
+    <p>Man, Côte d'Ivoire</p>
+  </footer>
+
+</body>
+</html>
